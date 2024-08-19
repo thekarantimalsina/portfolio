@@ -25,15 +25,55 @@ header {
   background: #333;
   color: #fff;
   padding-top: 50px;
-  min-height: 80px;
+  min-height: 150px;
   border-bottom: #d3d3d3 3px solid;
   
+}
+
+  #search-form {
+
+    right: 20px;
+    margin-left: 1200px;
+  }
+
+
+#search-query {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Space between input and button */
+  align-items: center;
+  
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  align-items: center;
+  
+}
+
+#search-button {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+  align-items: center;
 }
 
 header h1 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 10px;
+  transition: transform 0.3s ease; 
+  display: block;
+  margin: 0 auto;
+}
+
+header h1:hover {
+  
+  color: rgb(42, 180, 180);
 }
 
 .logo-container {
@@ -48,9 +88,11 @@ size: 20px;
 margin-top: 0cm;
 }
 
+
 nav ul {
   text-align: center;
   padding: 10px 0;
+  padding-top: 50px;
 }
 
 nav ul li {
@@ -62,6 +104,11 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+  transition: transform 0.3s ease; 
+}
+nav ul li a:hover {
+  color: rgb(48, 183, 183);
+  transform: scale(1.2);
 }
 
 /* Section styles */
@@ -79,6 +126,20 @@ section {
 h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+#port {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+#port .work-item {
+  transition: transition: transform 0.9s ease; 
+}
+#port .work-item:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .work-gallery {
