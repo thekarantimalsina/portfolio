@@ -1,0 +1,133 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  cursor: url('foweoif.png') , auto;
+}
+
+.container {
+  width: 100%;
+
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 50px;
+  min-height: 80px;
+  border-bottom: #d3d3d3 3px solid;
+  
+}
+
+header h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  max-width: 150px; /* Limit the logo width */
+  position: absolute;
+  margin-top: -100px;
+}
+
+.logo {
+  width: 100%; /* Ensures the logo scales properly */
+size: 20px;
+margin-top: 0cm;
+}
+
+nav ul {
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Section styles */
+section {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#about p {
+  width: 70%;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.work-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-item {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.work-item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Contact section styles */
+#contact p {
+  font-size: 18px;
+}
+
+#contact a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
